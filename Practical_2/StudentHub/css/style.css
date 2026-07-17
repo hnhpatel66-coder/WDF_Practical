@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+/* Header */
+
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Main Navigation */
+
+nav[aria-label="Main Navigation"]{
+    background:#005599;
+    padding:15px;
+}
+
+nav[aria-label="Main Navigation"] a{
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+    font-weight:bold;
+}
+
+nav[aria-label="Main Navigation"] a:hover{
+    text-decoration:underline;
+}
+
+/* Breadcrumb */
+
+nav[aria-label="Breadcrumb"]{
+    background:#eeeeee;
+    padding:10px 20px;
+    font-size:14px;
+}
+
+nav[aria-label="Breadcrumb"] a{
+    color:#003366;
+    text-decoration:none;
+}
+
+nav[aria-label="Breadcrumb"] span{
+    font-weight:bold;
+    color:#000;
+}
+
+/* Main */
+
+main{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+
+/* Section */
+
+section{
+    flex:3;
+    background:white;
+    padding:20px;
+    border-radius:5px;
+}
+
+/* Article */
+
+article{
+    margin-bottom:20px;
+}
+
+/* Aside */
+
+aside{
+    flex:1;
+    background:#ffffff;
+    padding:20px;
+    border-radius:5px;
+}
+
+/* Footer */
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
