@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "AI Innovation Summit",
+    "category": "Technology",
+    "city": "Ahmedabad",
+    "date": "2026-10-12",
+    "price": 300
+  },
+  {
+    "id": 2,
+    "title": "Frontend Developers Meetup",
+    "category": "Technology",
+    "city": "Vadodara",
+    "date": "2026-10-16",
+    "price": 150
+  },
+  {
+    "id": 3,
+    "title": "University Cricket Championship",
+    "category": "Sports",
+    "city": "Anand",
+    "date": "2026-10-20",
+    "price": 100
+  },
+  {
+    "id": 4,
+    "title": "Cloud Computing Workshop",
+    "category": "Workshop",
+    "city": "Ahmedabad",
+    "date": "2026-10-24",
+    "price": 500
+  },
+  {
+    "id": 5,
+    "title": "Photography Walk",
+    "category": "Photography",
+    "city": "Surat",
+    "date": "2026-10-28",
+    "price": 200
+  },
+  {
+    "id": 6,
+    "title": "Java Coding Challenge",
+    "category": "Technology",
+    "city": "Anand",
+    "date": "2026-11-02",
+    "price": 250
+  },
+  {
+    "id": 7,
+    "title": "Startup Networking Night",
+    "category": "Business",
+    "city": "Ahmedabad",
+    "date": "2026-11-06",
+    "price": 400
+  },
+  {
+    "id": 8,
+    "title": "Web Design Bootcamp",
+    "category": "Workshop",
+    "city": "Vadodara",
+    "date": "2026-11-09",
+    "price": 550
+  },
+  {
+    "id": 9,
+    "title": "Music Festival",
+    "category": "Entertainment",
+    "city": "Surat",
+    "date": "2026-11-12",
+    "price": 700
+  },
+  {
+    "id": 10,
+    "title": "Cyber Security Seminar",
+    "category": "Technology",
+    "city": "Rajkot",
+    "date": "2026-11-15",
+    "price": 350
+  },
+  {
+    "id": 11,
+    "title": "Football Tournament",
+    "category": "Sports",
+    "city": "Vadodara",
+    "date": "2026-11-18",
+    "price": 120
+  },
+  {
+    "id": 12,
+    "title": "Digital Marketing Workshop",
+    "category": "Business",
+    "city": "Ahmedabad",
+    "date": "2026-11-21",
+    "price": 300
+  },
+  {
+    "id": 13,
+    "title": "Nature Photography Exhibition",
+    "category": "Photography",
+    "city": "Rajkot",
+    "date": "2026-11-24",
+    "price": 180
+  },
+  {
+    "id": 14,
+    "title": "Robotics Competition",
+    "category": "Technology",
+    "city": "Surat",
+    "date": "2026-11-27",
+    "price": 450
+  },
+  {
+    "id": 15,
+    "title": "Student Talent Show",
+    "category": "Entertainment",
+    "city": "Anand",
+    "date": "2026-11-30",
+    "price": 100
+  }
+]

@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Student Registration</h1>
+
+    <p class="subtitle">
+        Fill in the details below to create your account.
+    </p>
+
+    <form id="registrationForm">
+
+        <div class="form-group">
+            <label for="name">Full Name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your full name">
+
+            <small class="error" id="nameError"></small>
+        </div>
+
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="example@gmail.com">
+
+            <small class="error" id="emailError"></small>
+        </div>
+
+
+        <div class="form-group">
+            <label for="mobile">Mobile Number</label>
+
+            <input
+                type="tel"
+                id="mobile"
+                maxlength="10"
+                placeholder="Enter 10 digit mobile number">
+
+            <small class="error" id="mobileError"></small>
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="password">Password</label>
+
+            <div class="password-box">
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password">
+
+                <button
+                    type="button"
+                    class="show-btn"
+                    id="showPassword">
+                    Show
+                </button>
+
+            </div>
+
+            <div class="strength-container">
+                <div id="strengthBar"></div>
+            </div>
+
+            <small id="strengthText"></small>
+
+            <small class="error" id="passwordError"></small>
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="confirmPassword">
+                Confirm Password
+            </label>
+
+            <div class="password-box">
+
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    placeholder="Enter password again">
+
+                <button
+                    type="button"
+                    class="show-btn"
+                    id="showConfirmPassword">
+                    Show
+                </button>
+
+            </div>
+
+            <small
+                class="error"
+                id="confirmPasswordError">
+            </small>
+
+        </div>
+
+
+        <div class="form-row">
+
+            <div class="form-group">
+
+                <label for="course">
+                    Course
+                </label>
+
+                <select id="course">
+
+                    <option value="">
+                        Select Course
+                    </option>
+
+                    <option value="B.Tech IT">
+                        B.Tech IT
+                    </option>
+
+                    <option value="B.Tech CSE">
+                        B.Tech CSE
+                    </option>
+
+                    <option value="BCA">
+                        BCA
+                    </option>
+
+                    <option value="MCA">
+                        MCA
+                    </option>
+
+                </select>
+
+                <small
+                    class="error"
+                    id="courseError">
+                </small>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="year">
+                    Year
+                </label>
+
+                <select id="year">
+
+                    <option value="">
+                        Select Year
+                    </option>
+
+                    <option value="First Year">
+                        First Year
+                    </option>
+
+                    <option value="Second Year">
+                        Second Year
+                    </option>
+
+                    <option value="Third Year">
+                        Third Year
+                    </option>
+
+                    <option value="Fourth Year">
+                        Fourth Year
+                    </option>
+
+                </select>
+
+                <small
+                    class="error"
+                    id="yearError">
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label>Gender</label>
+
+            <div class="gender-box">
+
+                <label>
+                    <input
+                        type="radio"
+                        name="gender"
+                        value="Male">
+                    Male
+                </label>
+
+                <label>
+                    <input
+                        type="radio"
+                        name="gender"
+                        value="Female">
+                    Female
+                </label>
+
+                <label>
+                    <input
+                        type="radio"
+                        name="gender"
+                        value="Other">
+                    Other
+                </label>
+
+            </div>
+
+            <small
+                class="error"
+                id="genderError">
+            </small>
+
+        </div>
+
+
+        <div class="form-group terms-box">
+
+            <label>
+
+                <input
+                    type="checkbox"
+                    id="terms">
+
+                I accept the Terms and Conditions
+
+            </label>
+
+            <small
+                class="error"
+                id="termsError">
+            </small>
+
+        </div>
+
+
+        <div class="button-group">
+
+            <button
+                type="submit"
+                class="register-btn">
+                Register
+            </button>
+
+            <button
+                type="reset"
+                class="reset-btn"
+                id="resetButton">
+                Reset
+            </button>
+
+        </div>
+
+
+        <div
+            id="successMessage"
+            class="success-message">
+        </div>
+
+    </form>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
