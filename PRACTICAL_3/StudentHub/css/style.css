@@ -1,0 +1,437 @@
+/* ==================================================
+   GLOBAL SETTINGS
+================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    line-height: 1.6;
+
+    color: #333;
+
+    background-color: #f5f7fa;
+}
+
+
+/* ==================================================
+   CUSTOM NAVBAR
+================================================== */
+
+.custom-navbar {
+
+    background-color: #000052;
+
+}
+
+
+/* Navbar Hover */
+
+.custom-navbar
+.nav-link:hover {
+
+    color: #ffffff;
+
+    background-color:
+        rgba(255, 255, 255, 0.15);
+
+    border-radius: 5px;
+
+}
+
+
+/* ==================================================
+   HERO SECTION
+   CUSTOM FLEXBOX
+================================================== */
+
+.hero-section {
+
+    min-height: 450px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    background-color: #e9ecf5;
+
+    padding: 50px 20px;
+
+}
+
+
+/* Hero Content */
+
+.hero-content {
+
+    max-width: 750px;
+
+}
+
+
+/* Hero Heading */
+
+.hero-content h1 {
+
+    color: #000052;
+
+    font-size: 42px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* Hero Paragraph */
+
+.hero-content p {
+
+    font-size: 18px;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* ==================================================
+   COMMON SECTION
+================================================== */
+
+.section-padding {
+
+    padding-top: 70px;
+
+    padding-bottom: 70px;
+
+}
+
+
+/* ==================================================
+   SECTION TITLE
+================================================== */
+
+.section-title {
+
+    text-align: center;
+
+    color: #000052;
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* ==================================================
+   SECTION DESCRIPTION
+================================================== */
+
+.section-description {
+
+    max-width: 800px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-bottom: 40px;
+
+    text-align: center;
+
+    font-size: 17px;
+
+}
+
+
+/* ==================================================
+   BOOTSTRAP CARD CUSTOMIZATION
+================================================== */
+
+.card-title {
+
+    color: #000052;
+
+    font-weight: bold;
+
+}
+
+
+/* ==================================================
+   REGISTRATION SECTION
+================================================== */
+
+.registration-section {
+
+    background-color: #e9ecf5;
+
+}
+
+
+/* ==================================================
+   REGISTRATION FORM
+   CUSTOM FLEXBOX
+================================================== */
+
+.registration-form {
+
+    max-width: 600px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    background-color: #ffffff;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* ==================================================
+   DASHBOARD CARD
+================================================== */
+
+.dashboard-card {
+
+    height: 100%;
+
+    padding: 30px 20px;
+
+    text-align: center;
+
+    background-color: #ffffff;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0, 0, 0, 0.1);
+
+    transition:
+        transform 0.3s ease;
+
+}
+
+
+/* Dashboard Hover */
+
+.dashboard-card:hover {
+
+    transform:
+        translateY(-5px);
+
+}
+
+
+/* Dashboard Heading */
+
+.dashboard-card h3 {
+
+    color: #000052;
+
+    font-size: 20px;
+
+    margin-bottom: 15px;
+
+}
+
+
+/* Dashboard Number */
+
+.dashboard-value {
+
+    color: #000052;
+
+    font-size: 36px;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+}
+
+
+/* ==================================================
+   EVENTS SECTION
+================================================== */
+
+.events-section {
+
+    background-color: #e9ecf5;
+
+}
+
+
+/* Event Card */
+
+.event-card {
+
+    transition:
+        transform 0.3s ease;
+
+}
+
+
+/* Event Card Hover */
+
+.event-card:hover {
+
+    transform:
+        translateY(-5px);
+
+}
+
+
+/* Event Date */
+
+.event-date {
+
+    color: #000052;
+
+    font-weight: bold;
+
+    font-size: 16px;
+
+}
+
+
+/* ==================================================
+   FOOTER
+================================================== */
+
+.site-footer {
+
+    background-color: #000052;
+
+    color: #ffffff;
+
+    text-align: center;
+
+    padding-top: 25px;
+
+    padding-bottom: 25px;
+
+}
+
+
+/* ==================================================
+   TABLET RESPONSIVENESS
+   601px - 991px
+================================================== */
+
+@media
+(min-width: 601px)
+and
+(max-width: 991px) {
+
+
+    .hero-content h1 {
+
+        font-size: 36px;
+
+    }
+
+
+    .section-title {
+
+        font-size: 30px;
+
+    }
+
+}
+
+
+/* ==================================================
+   MOBILE RESPONSIVENESS
+   600px AND BELOW
+================================================== */
+
+@media
+(max-width: 600px) {
+
+
+    /* Hero */
+
+    .hero-section {
+
+        min-height: 400px;
+
+        padding:
+            40px 15px;
+
+    }
+
+
+    /* Hero Heading */
+
+    .hero-content h1 {
+
+        font-size: 30px;
+
+    }
+
+
+    /* Hero Paragraph */
+
+    .hero-content p {
+
+        font-size: 16px;
+
+    }
+
+
+    /* Section */
+
+    .section-padding {
+
+        padding-top: 50px;
+
+        padding-bottom: 50px;
+
+    }
+
+
+    /* Section Heading */
+
+    .section-title {
+
+        font-size: 27px;
+
+    }
+
+
+    /* Registration Form */
+
+    .registration-form {
+
+        padding: 20px;
+
+    }
+
+
+}

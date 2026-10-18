@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <!-- Responsive Viewport -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>StudentHub - Responsive Student Portal</title>
+
+
+    <!-- ==================================================
+         BOOTSTRAP 5 CSS
+    ================================================== -->
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+
+    <!-- ==================================================
+         CUSTOM CSS
+    ================================================== -->
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- ==================================================
+     NAVIGATION
+     Bootstrap Navbar
+================================================== -->
+
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+
+        <div class="container">
+
+            <!-- Logo -->
+
+            <a class="navbar-brand fw-bold"
+               href="#home">
+
+                StudentHub
+
+            </a>
+
+
+            <!-- Mobile Menu Button -->
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavigation"
+                aria-controls="mainNavigation"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <!-- Navigation Links -->
+
+            <div
+                class="collapse navbar-collapse"
+                id="mainNavigation">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                           href="#home">
+
+                            Home
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                           href="#about">
+
+                            About
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                           href="#register">
+
+                            Register
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                           href="#dashboard">
+
+                            Dashboard
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                           href="#events">
+
+                            Events
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<!-- ==================================================
+     MAIN CONTENT
+================================================== -->
+
+<main>
+
+
+<!-- ==================================================
+     HOME SECTION
+     Custom CSS Flexbox
+================================================== -->
+
+<section id="home"
+         class="hero-section">
+
+
+    <div class="container">
+
+
+        <div class="hero-content">
+
+
+            <h1>
+
+                Welcome to StudentHub
+
+            </h1>
+
+
+            <p>
+
+                Your digital platform for managing
+                academic activities, student events,
+                and campus resources.
+
+            </p>
+
+
+            <!-- Bootstrap Button -->
+
+            <a href="#register"
+               class="btn btn-primary btn-lg">
+
+                Register Now
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     ABOUT SECTION
+     Bootstrap Responsive Grid
+================================================== -->
+
+<section id="about"
+         class="section-padding">
+
+
+    <div class="container">
+
+
+        <h2 class="section-title">
+
+            About StudentHub
+
+        </h2>
+
+
+        <p class="section-description">
+
+            StudentHub is a responsive web platform
+            designed to provide students with easy access
+            to academic information, events, and
+            campus resources.
+
+        </p>
+
+
+        <!-- Bootstrap Grid -->
+
+        <div class="row g-4">
+
+
+            <!-- col-12 = Mobile
+                 col-md-6 = Tablet
+                 col-lg-6 = Desktop -->
+
+            <div class="col-12 col-md-6">
+
+
+                <!-- Bootstrap Card -->
+
+                <div class="card h-100 shadow-sm">
+
+
+                    <div class="card-body">
+
+
+                        <h3 class="card-title">
+
+                            Our Mission
+
+                        </h3>
+
+
+                        <p class="card-text">
+
+                            To create a centralized digital
+                            platform that helps students
+                            access academic and campus
+                            resources easily.
+
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-12 col-md-6">
+
+
+                <div class="card h-100 shadow-sm">
+
+
+                    <div class="card-body">
+
+
+                        <h3 class="card-title">
+
+                            Our Vision
+
+                        </h3>
+
+
+                        <p class="card-text">
+
+                            To improve student engagement
+                            and learning experiences through
+                            modern web technologies.
+
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     REGISTRATION SECTION
+     Bootstrap Form + Custom Flexbox
+================================================== -->
+
+<section id="register"
+         class="section-padding registration-section">
+
+
+    <div class="container">
+
+
+        <h2 class="section-title">
+
+            Student Registration
+
+        </h2>
+
+
+        <p class="section-description">
+
+            Register as a StudentHub member.
+
+        </p>
+
+
+        <!-- Bootstrap Form -->
+
+        <form class="registration-form">
+
+
+            <!-- Full Name -->
+
+            <div class="mb-3">
+
+
+                <label for="name"
+                       class="form-label">
+
+                    Full Name
+
+                </label>
+
+
+                <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Enter your full name"
+                    required>
+
+
+            </div>
+
+
+
+            <!-- Email -->
+
+            <div class="mb-3">
+
+
+                <label for="email"
+                       class="form-label">
+
+                    Email Address
+
+                </label>
+
+
+                <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter your email"
+                    required>
+
+
+            </div>
+
+
+
+            <!-- Phone -->
+
+            <div class="mb-3">
+
+
+                <label for="phone"
+                       class="form-label">
+
+                    Phone Number
+
+                </label>
+
+
+                <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="Enter your phone number"
+                    required>
+
+
+            </div>
+
+
+
+            <!-- Course -->
+
+            <div class="mb-3">
+
+
+                <label for="course"
+                       class="form-label">
+
+                    Select Course
+
+                </label>
+
+
+                <select
+                    id="course"
+                    class="form-select"
+                    required>
+
+
+                    <option value="">
+
+                        Select Course
+
+                    </option>
+
+
+                    <option>
+
+                        B.Tech Information Technology
+
+                    </option>
+
+
+                    <option>
+
+                        B.Tech Computer Science
+
+                    </option>
+
+
+                    <option>
+
+                        B.Tech Computer Engineering
+
+                    </option>
+
+
+                </select>
+
+            </div>
+
+
+
+            <!-- Bootstrap Button -->
+
+            <button
+                type="submit"
+                class="btn btn-primary">
+
+                Register
+
+            </button>
+
+
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     DASHBOARD SECTION
+     Bootstrap Grid + Cards
+================================================== -->
+
+<section id="dashboard"
+         class="section-padding">
+
+
+    <div class="container">
+
+
+        <h2 class="section-title">
+
+            Student Dashboard
+
+        </h2>
+
+
+        <p class="section-description">
+
+            View your academic activities and
+            student information.
+
+        </p>
+
+
+        <!-- Bootstrap Responsive Grid -->
+
+        <div class="row g-4">
+
+
+            <!-- Attendance -->
+
+            <div class="col-12 col-sm-6 col-lg-3">
+
+
+                <div class="dashboard-card">
+
+
+                    <h3>
+
+                        Attendance
+
+                    </h3>
+
+
+                    <div class="dashboard-value">
+
+                        85%
+
+                    </div>
+
+
+                    <p>
+
+                        Overall Attendance
+
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Assignments -->
+
+            <div class="col-12 col-sm-6 col-lg-3">
+
+
+                <div class="dashboard-card">
+
+
+                    <h3>
+
+                        Assignments
+
+                    </h3>
+
+
+                    <div class="dashboard-value">
+
+                        8
+
+                    </div>
+
+
+                    <p>
+
+                        Completed Assignments
+
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Events -->
+
+            <div class="col-12 col-sm-6 col-lg-3">
+
+
+                <div class="dashboard-card">
+
+
+                    <h3>
+
+                        Events
+
+                    </h3>
+
+
+                    <div class="dashboard-value">
+
+                        3
+
+                    </div>
+
+
+                    <p>
+
+                        Upcoming Events
+
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Notifications -->
+
+            <div class="col-12 col-sm-6 col-lg-3">
+
+
+                <div class="dashboard-card">
+
+
+                    <h3>
+
+                        Notifications
+
+                    </h3>
+
+
+                    <div class="dashboard-value">
+
+                        5
+
+                    </div>
+
+
+                    <p>
+
+                        New Notifications
+
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==================================================
+     EVENTS SECTION
+     Bootstrap Grid + Cards
+================================================== -->
+
+<section id="events"
+         class="section-padding events-section">
+
+
+    <div class="container">
+
+
+        <h2 class="section-title">
+
+            Upcoming Events
+
+        </h2>
+
+
+        <p class="section-description">
+
+            Explore upcoming technical and
+            academic events.
+
+        </p>
+
+
+        <!-- Bootstrap Responsive Grid -->
+
+        <div class="row g-4">
+
+
+            <!-- Event 1 -->
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+
+                <div class="card event-card h-100 shadow-sm">
+
+
+                    <div class="card-body">
+
+
+                        <span class="event-date">
+
+                            10 AUG 2026
+
+                        </span>
+
+
+                        <h3 class="card-title mt-3">
+
+                            Web Development Workshop
+
+                        </h3>
+
+
+                        <p class="card-text">
+
+                            Learn modern web development
+                            technologies and responsive
+                            UI design.
+
+                        </p>
+
+
+                        <a href="#"
+                           class="btn btn-primary">
+
+                            View Details
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Event 2 -->
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+
+                <div class="card event-card h-100 shadow-sm">
+
+
+                    <div class="card-body">
+
+
+                        <span class="event-date">
+
+                            20 AUG 2026
+
+                        </span>
+
+
+                        <h3 class="card-title mt-3">
+
+                            Hackathon 2026
+
+                        </h3>
+
+
+                        <p class="card-text">
+
+                            Participate in an exciting
+                            coding challenge and develop
+                            innovative solutions.
+
+                        </p>
+
+
+                        <a href="#"
+                           class="btn btn-primary">
+
+                            View Details
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Event 3 -->
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+
+                <div class="card event-card h-100 shadow-sm">
+
+
+                    <div class="card-body">
+
+
+                        <span class="event-date">
+
+                            25 AUG 2026
+
+                        </span>
+
+
+                        <h3 class="card-title mt-3">
+
+                            Technology Expert Talk
+
+                        </h3>
+
+
+                        <p class="card-text">
+
+                            Explore emerging technologies
+                            with experienced industry experts.
+
+                        </p>
+
+
+                        <a href="#"
+                           class="btn btn-primary">
+
+                            View Details
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- ==================================================
+     FOOTER
+================================================== -->
+
+<footer class="site-footer">
+
+
+    <div class="container">
+
+
+        <p class="mb-0">
+
+            &copy; 2026 StudentHub.
+            All Rights Reserved.
+
+        </p>
+
+
+    </div>
+
+</footer>
+
+
+
+<!-- ==================================================
+     BOOTSTRAP JAVASCRIPT
+     Required for Mobile Navbar
+================================================== -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+</body>
+
+</html>
